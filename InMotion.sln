@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00000000-0000-0000-0000-000000000000}") = "InMotion", "InMotion\InMotion.proj", "{DBE8B2D4-E4D9-4437-A52B-CA75139AABA9}"
+EndProject
+Global
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBE8B2D4-E4D9-4437-A52B-CA75139AABA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE8B2D4-E4D9-4437-A52B-CA75139AABA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE8B2D4-E4D9-4437-A52B-CA75139AABA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE8B2D4-E4D9-4437-A52B-CA75139AABA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
