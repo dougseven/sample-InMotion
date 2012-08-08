@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>dbe8b2d4-e4d9-4437-a52b-ca75139aaba9</ProjectGuid>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <AppIdentifier>com.telerik.InMotion</AppIdentifier>
+    <ProvisionName>Icenium_Generic (1).mobileprovision</ProvisionName>
+    <ProjectName>InMotion</ProjectName>
+    <IsRunnable>true</IsRunnable>
+    <TemplateAppName>Cordova170</TemplateAppName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources" />
+    <Folder Include="App_Resources\iOS">
+      <Platform>iOS</Platform>
+    </Folder>
+    <Folder Include="App_Resources\Android">
+      <Platform>Android</Platform>
+    </Folder>
+    <Folder Include="App_Resources\Android\drawable-hdpi">
+      <Platform>Android</Platform>
+    </Folder>
+    <Folder Include="App_Resources\Android\drawable-mdpi">
+      <Platform>Android</Platform>
+    </Folder>
+    <Folder Include="App_Resources\Android\drawable-ldpi">
+      <Platform>Android</Platform>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\compass_background.png" />
+    <Content Include="images\compass_face.png" />
+    <Content Include="images\level-back.png" />
+    <Content Include="images\level-bubble.png" />
+    <Content Include="images\level-front.png" />
+    <Content Include="index.html" />
+    <Content Include="kendo\js\jquery.min.js" />
+    <Content Include="kendo\js\kendo.mobile.min.js" />
+    <Content Include="kendo\styles\images\ios-sprite.png" />
+    <Content Include="kendo\styles\images\android-sprite.png" />
+    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="scripts\in-motion.js" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\phone.css" />
+    <Content Include="styles\tablet.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
+</Project>
