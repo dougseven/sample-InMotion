@@ -1,0 +1,69 @@
+#compass-bg
+{
+	background-image: url('../images/compass_background.png');
+	position: absolute;
+	margin: 0;
+	top: 44px;
+	width: 100%;
+	height: 550px;
+
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#compass-face
+{
+	z-index: 1000;
+	position: absolute;
+	top: 96px;
+	left: 0px;
+	background-image: url('../images/compass_face.png');
+	width: 100%;
+	margin: 0;
+	height: 378px;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transform: rotate(0deg);
+}
+
+#compass-address
+{
+	z-index: 1000;
+	position: absolute;
+	top: 550px;
+	width: 100%;
+	text-align: center;
+}
+
+#compass-current-address-street
+{
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	font-family: Corbel, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+#compass-current-address-city
+{
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: Corbel, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+#map-container
+{
+	width: 100%;
+	height: 600px;
+	background-image: url('http://maps.googleapis.com/maps/api/staticmap?size=600x600&zoom=16&sensor=true&markers=size:mid%7Ccolor:red%7C(37.421903, -122.084570)');
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}

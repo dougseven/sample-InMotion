@@ -1,0 +1,58 @@
+#compass-bg
+{
+	background-image: url('../images/compass_background.png');
+	position: absolute;
+	margin: 0;
+	top: 44px;
+	width: 100%;
+	height: 280px;
+
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#compass-face
+{
+	z-index: 1000;
+	position: absolute;
+	top: 71px;
+	left: 0px;
+	background-image: url('../images/compass_face.png');
+	width: 100%;
+	margin: 0;
+	height: 191px;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transform: rotate(0deg);
+}
+
+#compass-address
+{
+	z-index: 1000;
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	text-align: center;
+}
+
+#compass-current-address-street
+{
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: Corbel, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+#compass-current-address-city
+{
+	width: 100%;
+	text-align: center;
+	font-size: 1.0em;
+	font-family: Corbel, Helvetica, Arial, sans-serif;
+	text-align: center;
+}

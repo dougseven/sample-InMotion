@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>dbe8b2d4-e4d9-4437-a52b-ca75139aaba9</ProjectGuid>
@@ -7,7 +7,13 @@
     <ProvisionName>Icenium_Generic (1).mobileprovision</ProvisionName>
     <ProjectName>InMotion</ProjectName>
     <IsRunnable>true</IsRunnable>
-    <TemplateAppName>Cordova170</TemplateAppName>
+    <TemplateAppName>Cordova220</TemplateAppName>
+    <BundleVersion>1.0</BundleVersion>
+    <DeviceOrientations>Portrait</DeviceOrientations>
+    <iOSStatusBarStyle>BlackOpaque</iOSStatusBarStyle>
+    <AndroidPermissions />
+    <AndroidVersionCode>1</AndroidVersionCode>
+    <AndroidHardwareAcceleration>True</AndroidHardwareAcceleration>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="App_Resources" />
